@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item1"
+        android:icon ="@drawable/ic_icon"
+        android:title="찾기"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/search_bar"
+                android:title="검색하기"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_0"
+        android:title="지도"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_1"
+        android:title="인테리어" />
+    <item
+        android:id="@+id/menu_2"
+        android:title="매물 검색 범위" >
+        <menu>
+            <item
+                android:id="@+id/distance_01"
+                android:title="반경 500m 이내" />
+            <item
+                android:id="@+id/distance_02"
+                android:title="반경 1km 이내" />
+            <group
+                android:id="@+id/distance_03"
+                android:title="반경 5km 이내"/>
+        </menu>
+    </item>
+</menu>

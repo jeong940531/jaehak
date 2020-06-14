@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "36572651090",
+    "firebase_url": "https://room-13f84.firebaseio.com",
+    "project_id": "room-13f84",
+    "storage_bucket": "room-13f84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36572651090:android:a1e5ff6fa4fe018d6ec98b",
+        "android_client_info": {
+          "package_name": "com.example.room"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36572651090-bpj5dgl4sjljmngtn2rg0l3v68lho58r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRCECjIzxDOlc6yzomZK6Meyc0hhbQQtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36572651090-bpj5dgl4sjljmngtn2rg0l3v68lho58r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
